@@ -41,11 +41,5 @@ public class QuadraticEquation {
     public double getRoot2(){
         return (-this.b+Math.pow(this.getDiscriminant(),0.5))/2 * this.a;
     }
-    public String toString(){
-        return "QuadraticEquation{" +
-                "a=" + a +
-                "b=" + b +
-                "c=" + c +
-                "}";
-    }
+
 }
