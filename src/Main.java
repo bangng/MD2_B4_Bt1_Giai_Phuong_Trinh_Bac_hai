@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println(System.in);
         QuadraticEquation quadraticEquation = new QuadraticEquation();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a: ");
         double a = scanner.nextDouble();
-        while (a < 0){
-            System.out.println("Return enter a, greater than");
+        while (a == 0){
+            System.out.println("Return enter a");
             a = scanner.nextDouble();
         }
         quadraticEquation.setA(a);
